@@ -23,7 +23,7 @@ mixin ArtistCard(options)
 
   article(class='c-artist-card' class=classes)
     a(href="##" class="c-artist-card__wrap") 
-      h3(class="text-xl fw-900 tracking-tight") #{data.title}123
+      h3(class="text-xl fw-900 tracking-tight") #{data.title}
       div(class="u-img-ratio" style="--ratio: 3/2")
         //- 因為 aspect-ratio 會因為圖片寬高而不符合設定的比例
         //- 所以圖片要加上 -abs 絕對定位，讓他跳脫自己的佔位，去符合父層 aspect-ratio
