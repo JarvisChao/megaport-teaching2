@@ -12,7 +12,7 @@ mixin NewsDetail(index)
   html(lang="en")
     head
       - 
-        path = `/news/${data.id}.html`
+        path = `/news/${index}.html`
         pageTitle = data.title;
         infoTitle = '';
         description = data.description;
