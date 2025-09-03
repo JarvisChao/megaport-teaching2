@@ -20,7 +20,7 @@ mixin NewsList(options)
   html(lang="en")
     head
       -
-        path = currentCate ? `/news/category/${currentCate.path}.html` : '/news/'
+        path = props.catePath ? `/news/category/${currentCate.path}.html` : '/news/'
         pageTitle = currentCate.title;
         //- 兩個寫法都可以 
         //- undefined 可以取消定義
